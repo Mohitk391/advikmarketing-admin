@@ -1,0 +1,59 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .image-item {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    margin: 30px; /* Adds additional spacing around each image */
+    box-sizing: border-box; 
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: Adds a subtle border around images */
+  border-radius: 5px;
+  }
+  
+  .table-overlay {
+    position: absolute;
+    top: 72.5%;
+    left: 20%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .table {
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+  }
+  .header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  .headerCell {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+  }
+  .cell {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
